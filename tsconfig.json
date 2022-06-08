@@ -1,0 +1,20 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2017", //versão padrão era 2015 caso necessite voltar
+    "module": "es2020",
+    "lib": [
+      "es2020", //versão padrão era 2018 caso necessite voltar
+      "dom"
+    ]
+  }
+}
